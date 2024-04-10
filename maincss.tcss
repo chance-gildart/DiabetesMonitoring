@@ -1,0 +1,6 @@
+Screen{
+    layout:vertical;
+}
+DataTable{
+    height: 1fr;
+}
