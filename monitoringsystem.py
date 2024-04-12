@@ -24,7 +24,7 @@ class MonitoringSystem(App):
         yield Button("Sara Norman", id="sara")
         yield Button("Gregg Norman", id="gregg")
         yield Button("Help", id="help")
-        yield Button("Quit", id="quit")
+        yield Button.error("Quit", id="quit")
     
     # When Sara selects whether or not she has taken a reading, this is called
     def sara_action(self, str):
