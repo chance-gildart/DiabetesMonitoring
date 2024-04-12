@@ -12,7 +12,7 @@ When that installs, you can run ```python3 -m textual``` to make sure you downlo
 
 Once textual is working, you can run ```python3 monitoringsystem.py``` to run the program.
 
-When you run the program, you will be greeted with a screen that has three buttons: 2 for each name and one for the help. The help button will pull up the help documentation to allow the user to understand how to use the app. 
+When you run the program, you will be greeted with a screen that has four buttons: 2 for each name, one for help, and one that quits the program. The help button will pull up the help documentation to allow the user to understand how to use the app. 
 
 Selecting a name will pull up another menu that is personalized for that user with their name and ID at the top. It will ask the user if they have done a glucose check today. These menues are very similar for each user, but they will have their name and ID at the top. Selecting "Yes" will send the user to a screen that tells them that they can log out. Selecting "No" will send the user to a screen where they can input a reading.
 
